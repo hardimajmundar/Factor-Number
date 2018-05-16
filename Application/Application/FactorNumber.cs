@@ -18,11 +18,11 @@ namespace Application
             {
                 Console.WriteLine("Pling");
             }
-            else if (factornumber % 5 == 0)
+            if (factornumber % 5 == 0)
             {
                 Console.WriteLine("Plang");
             }
-            else if (factornumber % 7 == 0)
+            if (factornumber % 7 == 0)
             {
                 Console.WriteLine("Plong");
             }
